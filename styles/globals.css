@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Viga&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*Font Style Definitions*/
+.mainTitle {
+  font-family: 'Viga', sans-serif;
+}
+
+.text {
+  font-family: Roboto;
+  font-weight: 400;
+}

@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #F2EEDF;
+}
+
+.titleSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.titleSection h1, .titleSection h2{
+  margin: 10px 30%;
+  margin-right: 0;
+}
+
+.titleSection h1 {
+  font-size: 60pt;
+}
+.titleSection h2 {
+  font-size: 25pt;
+  color: #8D7341;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
