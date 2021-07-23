@@ -8,7 +8,7 @@ export default function Home() {
         <h2 className={"text"}>Never forget what you want to remember</h2>
       </div>
       <div className={styles.buttonSection}>
-        
+        <button className={styles.startButton}>Start Now</button>
       </div>
     </div>
   )
