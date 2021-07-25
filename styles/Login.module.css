@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #F2EEDF;
+  }
+
+  .loginButton {
+    background-color: #D4AF77;
+    color: #F2EEDF;
+    border: none;
+    font-size: 20pt;
+    font-family: Roboto;
+    font-weight: 300;
+   
+    max-width: 500px;
+    padding: 24px 100px;
+    margin: 20px;
+
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+  }
+
+  .loginButton:hover {
+    cursor: pointer;
+    background-color: #e9cda3;
+    color: #8D7341;
+  }
+
+  .startButton {
+    background-color: #D4AF77;
+    color: #F2EEDF;
+    border: none;
+    font-size: 25pt;
+    font-family: Roboto;
+    font-weight: 300;
+   
+    max-width: 400px;
+    margin-top: 15px;
+    margin-right: 20%;
+    padding: 24px 100px;
+  
+    transition: background-color 0.2s ease-in, color 0.2s ease-in;
+  }
+  .startButton:hover {
+    cursor: pointer;
+    background-color: #e9cda3;
+    color: #8D7341;
+  }
